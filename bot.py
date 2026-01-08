@@ -8,12 +8,12 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 
 # --- CONFIGURATION ---
 # 1. Replace 'YOUR_BOT_TOKEN' with your actual Bot Token
-BOT_TOKEN = "8450770290:AAGAjaaDAtX2D8U_TMvfeV5PT04Pi6VXrhU"
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 
 # 2. API Endpoints
-MOBILE_API_BASE_URL = "https://numapi.anshapi.workers.dev/?num="
-AADHAAR_API_BASE_URL = "https://osintapi.kaalveer.workers.dev/?key=leaked&famaadhaar="
-RC_API_BASE_URL = "https://darknagi-osint-vehicle-api.vercel.app/api/vehicle?rc="
+MOBILE_API_BASE_URL = "YOUR_NUMBER_API_KEY"
+AADHAAR_API_BASE_URL = "YOUR_ADHAR_NUM_API_KEY"
+RC_API_BASE_URL = "YOUR_VHICLE_INFO_API_KEY"
 
 # 3. Footer Details (Two Channels)
 BOT_SIGNATURE = "made by @Nightking1515"
